@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+.sticky .nav li.open li a {
+    background: #FFF;
+}
+
+.sticky .nav li.open li a:hover {
+    background: red;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    max-height: 350px;
+    overflow: auto;
+}
+
+.navbar-nav>li.active>a {
+    color: #fff;
+    background-color: #f60d2b;
+    border-bottom: 1px solid transparent;
+}
+
+.container p {
+    text-align: justify;
+    line-height: 30px;
+}
+
+.sub-footer .social ul li a {
+    width: 30px !IMPORTANT;
+    height: 30px !important;
+}
+
+ul#ui-id-1 {
+    background: #FFF;
+}
+
+ul#ui-id-1 li.ui-menu-item {
+    position: initial;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+header {
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #f60d2b;
+}
+
+p {
+    color: #000000;
+}
+
+.childnews p {
+    text-align: left;
+    line-height: initial;
+    margin: auto;
+}
+
+.sticky {
+    background-color: transparent !important;
+}
+
+.sticky .nav>li>a {
+    background: #fff;
+}
+
+.sticky .nav li.active a, .nav>li>a:focus, .nav>li>a:hover {
+    color: FFF !important;
+    background: red;
+}
+
+.social ul li a {
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.social ul li a.whatsapp {
+    background-color: #4caf50;
+}
+
+.social ul li a.whatsapp::after {
+    border-top-color: #4caf50;
+}
+
+.social ul li a.linkedin {
+    background-color: #0077b5;
+}
+
+.social ul li a.linkedin::after {
+    border-top-color: #0077b5;
+}
+
+.social ul li a.pinterest {
+    background-color: #df1a26;
+}
+
+.social ul li a.pinterest::after {
+    border-top-color: #df1a26;
+}
+
+.post-thumb img {
+    border-radius: 8px;
+}
+
+.childnews img {
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    min-height: 100px;
+}
+
+.content span {
+    font-size: inherit !important;
+}
+
+.newthumb {
+    max-height: 180px;
+    min-width: 240px;
+    object-fit: cover;
+    max-width: 240px;
+
+}
+
+/* make sidebar nav vertical */
+@media (min-width: 450px) {
+    .news_details img {
+        width: 100% !important;
+        float: unset !important;
+        height: auto !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+.mobile-menu {
+    background-image: url(../images/side-menu.jpg);
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    margin: 2px;
+}
+
+@media (max-width: 768px) {
+    .block-inner {
+        padding: 10px 0;
+    }
+
+    .hidemobile {
+        display: none;
+    }
+
+    .header-logo img {
+        margin: auto;
+    }
+
+    .header-logo h3 {
+        margin: 0 !important;
+        text-align: center;
+    }
+
+    .header-logo {
+        margin: 0;
+    }
+
+    .social ul li a {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+
+    .foote_bottom_ul_amrc {
+        text-align: center !important;
+    }
+
+    .foote_bottom_ul_amrc li {
+        display: -webkit-inline-box !important;
+    }
+
+
+}
+
+a.avc {
+    text-align: center;
+}
+
+.nav>li>a {
+    text-transform: uppercase;
+    padding: 10px 18px;
+    border: 1px solid #f60d2b;
+    margin-right: 3px;
+    border-radius: 10px;
+}
+
+.pagination .current a {
+    color: #fff;
+    background-color: #f60d2b;
+    border-color: #f60d2b;
+}
+
+.acareers .img-responsive {
+    max-height: 300px;
+    min-height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.thumbnail {
+    max-height: 200px;
+    min-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.related-news-inner img {
+    max-height: 150px;
+    min-height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.post-style1 {
+    min-height: 341px;
+}
+
+.post-style1 {
+    margin-bottom: 0px;
+}
+
+.Archive ul li a, .Archive ul li {
+    color: #FFF;
+}
+
+.sidebar-nav .badge {
+    display: initial;
+    font-size: 10px;
+}
+
+.Archive h3 {
+    margin: 0;
+}
+
+.error {
+    color: #f60d2b;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.ajaxLoader {
+    position: fixed;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background: #000000d1;
+    color: #FFF;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 24px
+}
